@@ -1,9 +1,9 @@
 class Fa < Formula
   desc ""
   homepage ""
-  url "https://github.com/codeskyblue/fa/releases/download/v0.0.5/fa_0.0.5_darwin_amd64.zip"
-  version "0.0.5"
-  sha256 "0bd3fd1ed58ce792ca8e100d7b744f307bce985e11cc3078533f30120a49c78b"
+  url "https://github.com/codeskyblue/fa/releases/download/v0.1.0/fa_0.1.0_darwin_amd64.zip"
+  version "0.1.0"
+  sha256 "6d956eb599dba4658b77351dd240fdfe4dd31aa1afa7a42cf9822eb31d58389a"
 
   def install
     bin.install "fa"
