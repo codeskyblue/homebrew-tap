@@ -5,24 +5,24 @@
 class Gohttpserver < Formula
   desc ""
   homepage ""
-  version "1.0.9"
+  version "1.1.0"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/codeskyblue/gohttpserver/releases/download/1.0.9/gohttpserver_1.0.9_darwin_amd64.tar.gz"
-    sha256 "7b3c52a021389e27bdd867fae8afa74c6aa1421b9ba37ca8f34941054190bf1b"
+    url "https://github.com/codeskyblue/gohttpserver/releases/download/1.1.0/gohttpserver_1.1.0_darwin_amd64.tar.gz"
+    sha256 "c1b8912982bdd18231cddbf49f052147f5311ed39fba38909d3d533e4eae600d"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/codeskyblue/gohttpserver/releases/download/1.0.9/gohttpserver_1.0.9_darwin_arm64.tar.gz"
-    sha256 "72c74882ded90fa3166835bbcafe63db3f5227f2392fc04b008ee9d14cb83cc9"
+    url "https://github.com/codeskyblue/gohttpserver/releases/download/1.1.0/gohttpserver_1.1.0_darwin_arm64.tar.gz"
+    sha256 "97bf19b73b278d279359a095343f4b9a8f67e8b3a690c1561b6dede51edb124b"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/codeskyblue/gohttpserver/releases/download/1.0.9/gohttpserver_1.0.9_linux_amd64.tar.gz"
-    sha256 "4ec3d93688482abf2c44c9b3a1af06331e06c19d7128b105558eea56e7d1cb0f"
+    url "https://github.com/codeskyblue/gohttpserver/releases/download/1.1.0/gohttpserver_1.1.0_linux_amd64.tar.gz"
+    sha256 "158332c59bc594e190bf86f8d282bae2cc94498224cc8fd0dc70cf229bf41a55"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/codeskyblue/gohttpserver/releases/download/1.0.9/gohttpserver_1.0.9_linux_arm64.tar.gz"
-    sha256 "12e83015f435174225c6a1e5e5a0d3bf32375067c74bf676083710b8e3cc92b6"
+    url "https://github.com/codeskyblue/gohttpserver/releases/download/1.1.0/gohttpserver_1.1.0_linux_arm64.tar.gz"
+    sha256 "3aa211fed66ab319297f40c16d6d5bc94192bd82c85e8aad0e7dad6ffcb77ad2"
   end
 
   def install
